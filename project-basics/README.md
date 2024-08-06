@@ -39,7 +39,7 @@ repo "master". This incompatibility can be a small frustration when attempting
 to link your Rust project to your remote repo. Luckily it is easily fixed by
 updating your git config to have a different default branch name:
 
-```
+```bash
 git config --global init.defaultBranch [default-branch-name]
 # I recommend setting the default branch name to "main":
 git config --global init.defaultBranch main
@@ -49,7 +49,7 @@ git config --global init.defaultBranch main
 
 First, we need to tell our git repo where the origin is:
 
-```
+```bash
 git remote add origin [ssh-path-to-remote-repo]
 # For example:
 git remote add origin git@github.com:JSpeedie/g2me.git
