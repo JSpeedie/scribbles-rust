@@ -90,8 +90,12 @@ git push
 
 ## Adding a Dependency to the Project
 
+You can add a dependency using the `cargo add` command. Some examples:
+
 ```
 cargo add assert_float_eq
+cargo add serde --features derive  # To add a dependency with certain features
+cargo add serde_json  # Some dependencies may require other dependencies for certain functionality
 ```
 
 &nbsp;
