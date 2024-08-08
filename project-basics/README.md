@@ -4,20 +4,17 @@
 ## Table of Contents
 
 * [Starting a Project](#starting-a-project)
-* [Linking the Project to a Remote Git Repo](#)
+* [Linking the Project to a Remote Git Repo](#linking-the-project-to-a-remote-git-repo)
     * [1. Create the Remote Repo](#1-create-the-remote-repo)
     * [2. Check the Branch Names](#2-check-the-branch-names)
     * [3. Linking our Local Git Repo to the Remote Repo](#3-linking-our-local-git-repo-to-the-remote-repo)
-    * [4. commit some data!](#4-commit-some-data)
+    * [4. Commit Some Data!](#4-commit-some-data)
 * [Adding a Dependency to the project](#adding-a-dependency-to-the-project)
 * [Viewing Documentation for a project](#viewing-documentation-for-a-project)
 * [Testing a Project](#testing-a-project)
-    * [Adding Tests in a separate file](#adding-tests-in-a-separate-file)
-    * [Running the project tests](#running-the-project-tests)
-* [Installing a New rust component](#installing-a-new-rust-component)
-
-* [Using G2ME over the Network](#using-g2me-over-the-network)
-    * [Connecting to the server from a client running on the same computer](#connecting-to-the-server-from-a-client-running-on-the-same-computer)
+    * [Adding Tests in a Separate File](#adding-tests-in-a-separate-file)
+    * [Running the Project Tests](#running-the-project-tests)
+* [Installing a New Rust Component](#installing-a-new-rust-component)
 
 
 ## Starting a Project
