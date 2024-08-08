@@ -1,5 +1,25 @@
 # Rust Project Basics
 
+
+## Table of Contents
+
+* [Starting a Project](#starting-a-project)
+* [Linking the Project to a Remote Git Repo](#)
+    * [1. Create the Remote Repo](#1-create-the-remote-repo)
+    * [2. Check the Branch Names](#2-check-the-branch-names)
+    * [3. Linking our Local Git Repo to the Remote Repo](#3-linking-our-local-git-repo-to-the-remote-repo)
+    * [4. commit some data!](#4-commit-some-data)
+* [Adding a Dependency to the project](#adding-a-dependency-to-the-project)
+* [Viewing Documentation for a project](#viewing-documentation-for-a-project)
+* [Testing a Project](#testing-a-project)
+    * [Adding Tests in a separate file](#adding-tests-in-a-separate-file)
+    * [Running the project tests](#running-the-project-tests)
+* [Installing a New rust component](#installing-a-new-rust-component)
+
+* [Using G2ME over the Network](#using-g2me-over-the-network)
+    * [Connecting to the server from a client running on the same computer](#connecting-to-the-server-from-a-client-running-on-the-same-computer)
+
+
 ## Starting a Project
 
 There are two kinds of projects you can make with Rust: binary crates and
@@ -96,6 +116,7 @@ You can add a dependency using the `cargo add` command. Some examples:
 cargo add assert_float_eq
 cargo add serde --features derive  # To add a dependency with certain features
 cargo add serde_json  # Some dependencies may require other dependencies for certain functionality
+cargo add chrono --features serde
 ```
 
 &nbsp;
